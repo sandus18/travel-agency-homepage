@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travora</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  font family -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navBar">
+        <a href="" class="brand">
+            <i class="fa-brands fa-avianex" style="color: rgb(116, 192, 252);"></i>
+            <span class="brandName">Travora</span>
+        </a>
+
+        <!-- menu icons -->
+        <input type="checkbox" id="check">
+        <label class="icons" for="check">
+            <!-- menu icon -->
+            <i id="menuIcon" class="fa-solid fa-bars"></i>
+            <!-- close icon -->
+            <i id="cancelIcon" class="fa-solid fa-xmark"></i>
+        </label>
+        <!-- navList -->
+        <ul class="navList">
+            <li class="navLink"><a href="#home" class="link">Home</a></li>
+            <li class="navLink"><a href="#destinations" class="link">Destinations</a></li>
+            <li class="navLink"><a href="#packages" class="link">Packages</a></li>
+            <li class="navLink"><a href="#reviews" class="link">Reviews</a></li>
+            <li class="navLink"><a href="#contact" class="link">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- hero section -->
+    <section id="home" class="heroSection">
+
+        <div class="heroText">
+            <h1 class="heroTitle">EXPLORE THE WORLD</h1>
+            <p class="heroPara">Discover amazing places at the best prices</p>
+            <button class="button">Book Now</button>
+        </div>
+       
+
+
+    </section>
+
+
+    <!-- popular Destinations -->
+    <h2 class="menuTitle">POPULAR DESTINATIONS</h2>
+   
+    <section id="destinations" class="destinations">
+
+        <!-- destinations1 -->
+        <div id="bali" class="destination">
+            <img class="desImg" src="./images/bali.jpeg" alt="bali">
+            <h3 class="desTitle">Bali</h3>
+        </div>
+        <!-- destinations2 -->
+        <div id="paris" class="destination">
+            <img class="desImg" src="./images/paris.jpeg" alt="Paris">
+            <h3 class="desTitle">Paris</h3>
+        </div>
+        <!-- destinations3 -->
+        <div id="dubai" class="destination">
+            <img class="desImg" src="./images/dubai.jpeg" alt="Dubai">
+            <h3 class="desTitle">Dubai</h3>
+        </div>
+        <!-- destinations4 -->
+        <div id="japan" class="destination">
+            <img class="desImg" src="./images/japan.jpeg" alt="Japan">
+            <h3 class="desTitle">Japan</h3>
+        </div>
+    </section>
+    <!-- tour packages -->
+    <h2>TOUR PACKAGES</h2>
+    <section id="packages" class="packages">
+
+        <!-- package 1 -->
+        <div class="package">
+            <img class="packageImg" src="./images/bali.jpeg" alt="bali">
+            <h3 class="packageTitle">Bali Paradise Getaway</h3>
+            <p class="packagePara">Relax on Bali's beautiful beaches and explore its rich culture.</p>
+            <div class="book">
+                <h5>$599</h5>
+                <a href="#" class="link">Book Now</a>
+            </div>
+        </div>
+        <!-- package 2 -->
+        <div class="package">
+            <img class="packageImg" src="./images/paris.jpeg" alt="Paris">
+            <h3 class="packageTitle">Paris Honeymoon Package</h3>
+            <p class="packagePara">Experience romantic Parisian evenings, iconic landmarks, and unforgettable moments
+                together.</p>
+            <div class="book">
+                <h5>$499</h5>
+                <a href="#" class="link">Book Now</a>
+            </div>
+        </div>
+        <!-- package 3 -->
+        <div id="package3" class="package">
+            <img class="packageImg" src="./images/dubai.jpeg" alt="Dubai">
+            <h3 class="packageTitle">Dubai Luxury Adventure</h3>
+            <p class="packagePara">Experience luxury shopping, iconic landmarks, and desert safaris.</p>
+            <div class="book">
+                <h5>$699</h5>
+                <a href="#" class="link">Book Now</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- customer reviews -->
+    <h2>CLIENT REVIEWS</h2>
+    <section id="reviews" class="reviews">
+        <!-- review 1 -->
+        <div class="review">
+            <div class="clientPhoto">
+                <img src="./images/sarah.png" alt="dp" class="dp">
+            </div>
+            <div class="clientData">
+
+                <h3 class="clientName">Sarah Johnson</h3>
+                <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                <p class="reviewPara">"The Paris Honeymoon Package was amazing! Everything was perfectly organized, and
+                    the hotel exceeded our expectations."</p>
+            </div>
+        </div>
+        <!-- review 2 -->
+
+        <div class="review">
+            <div class="clientPhoto">
+                <img src="./images/micheal.png" alt="dp" class="dp">
+            </div>
+            <div class="clientData">
+
+                <h3 class="clientName">Michael Lee</h3>
+                <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                <p class="reviewPara">"Bali Paradise Getaway was the perfect vacation. Beautiful beaches, friendly
+                    guides, and unforgettable experiences."</p>
+            </div>
+        </div>
+        <!-- review 3 -->
+        <div id="review3" class="review">
+            <div class="clientPhoto">
+                <img src="./images/emily.png" alt="dp" class="dp">
+            </div>
+            <div class="clientData">
+
+                <h3 class="clientName">Emily Davis</h3>
+                <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                <p class="reviewPara">"Dubai Luxury Adventure was worth every penny. The city tour and desert safari
+                    were absolutely fantastic!"</p>
+            </div>
+        </div>
+    </section>
+    <!-- contact us -->
+    <h2> CONTACT US</h2>
+    <section class="contact">
+        <div class="contactDetails">
+            <form class="form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Message"></textarea>
+                <button class="contactButton">Send Message</button>
+            </form>
+        </div>
+        <div class="contactImage">
+            <img src="./images/contactimg.jpeg" alt="" class="contactImg">
+        </div>
+    </section>
+    <!-- footer -->
+    <!-- about us -->
+    <section class="about">
+        <div class="aboutSection">
+            <div class="box">
+                <h3 id="h3">ABOUT US</h3>
+                <p class="aboutPara">We make your travel dreams come true. Explore the world with comfort and joy.</p>
+                <!-- social media icons -->
+                <div class="socialIcons">
+                    <ul class="List">
+                        <a class="smLink" href="https://www.facebook.com/" target="_blank"> <i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a class="smLink" href="https://www.instagram.com/" target="_blank"> <i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a class="smLink" href="https://www.pinterest.com/" target="_blank"><i
+                                class="fa-brands fa-pinterest"></i></a>
+                    </ul>
+                </div>
+            </div>
+            <!-- quick links -->
+            <div class="box">
+                <h3 id="h3">QUICK LINKS</h3>
+                <ul class="List">
+                    <li class="links"><a href="#home" class="link">Home</a></li>
+                    <li class="links"><a href="#destinations" class="link">Destinations</a></li>
+                    <li class="links"><a href="#packages" class="link">Packages</a></li>
+                    <li class="links"><a href="#reviews" class="link">Reviews</a></li>
+                    <li class="links"><a href="#contact" class="link">Contact</a></li>
+                </ul>
+            </div>
+            <!-- destinations -->
+            <div class="box">
+                <h3 id="h3">TOP DESTINATIONS</h3>
+                <ul class="List">
+                    <li class="links"><a href="#bali" class="link">Bali</a></li>
+                    <li class="links"><a href="#paris" class="link">Paris</a></li>
+                    <li class="links"><a href="#dubai" class="link">Dubai</a></li>
+                    <li class="links"><a href="#japan" class="link">Japan</a></li>
+                </ul>
+            </div>
+            <!-- newsletter -->
+            <div class="newsletter">
+                <h3 id="h3">NEWSLETER</h3>
+                <div class="box">
+                    <input type="email" placeholder="Enter your email">
+                    <button class="contactButton">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        </section>
+        <!-- copyright -->
+        <p id="footer" >&copy; 2026 Travora Travel Agency, All rights reserved.</p>
+    
+
+
+</body>
+
+</html>
