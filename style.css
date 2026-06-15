@@ -485,9 +485,6 @@ html {
     .navBar {
         padding: 20px 5%;
     }
-.destinations, .packages, .reviews, .contact{
-    display: none;
-}
 
 
 
